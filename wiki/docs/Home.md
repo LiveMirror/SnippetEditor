@@ -1,0 +1,50 @@
+Feb 5th:  
+**NEW Screencast: [Snippet Editor Tips and Tricks](http://billmccarthy.com/Projects/Snippet_Editor/screencast.html)**
+
+**NEW RELEASE 2.1.0.0 includes support for VS 2010**
+
+**Project Description**
+The Snippet Editor allows for easy management and creation of code snippets for Visual Studio.
+
+This is the Snippet Editor, formely known as the VB Snippet Editor as linked to from the MSDN VB site.
+
+
+Features include:
+* Complete snippet file management
+* basic syntax coloring
+* replacement highlighting 
+* drag and drop file organisation
+
+The Snippet Editor is a stand-alone exe suitable for all versions
+of Visual Studio 2005, 2008 and 2010 including the Express editions:
+
+
+![](Home_snippet_editor.png)
+
+
+
+The left hand pane provides for snippet collection management. 
+You can select which of your product collection to edit, filter the 
+collection based on a search phrase, add and remove snippets, 
+add existing folders, remove folders from the collection and 
+move snippets around by simple drag and drop.
+
+
+![](Home_snippet_navigation.png)
+
+
+
+The code editor provide basic syntax highlighting, and snippet 
+replacement highlighting, navigation, editing, adding and deleting.
+Resize the code editor pane, collapse or expand the Properties, 
+Imports or References panes, and your layout is remembered for
+next time you use the editor.
+
+
+
+![](Home_snippet_code.png)
+
+
+
+Enjoy :)
+

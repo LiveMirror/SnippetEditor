@@ -1,0 +1,36 @@
+[
+  {
+    "Id": "0",
+    "Name": "Snippet Editor 2.0.2",
+    "DevelopmentStatus": "Stable",
+    "Description": "Initial release of the Snippet Editor\n\n\n*note :* _By default Visual Studio Snippets are in the Program Files sub tree. Hence to edit them on Vista you will need to run as Admin._",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2008-12-28T00:30:48.687-08:00",
+    "Files": [
+      {
+        "Id": "4b377c1c-21f8-43ce-882f-a4cedbcbd6b5",
+        "FileName": "SnippetEditor 2.0.2.0.zip",
+        "Url": "./0/4b377c1c-21f8-43ce-882f-a4cedbcbd6b5",
+        "Type": "Application",
+        "UploadDate": "2008-12-27T23:29:21.747-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "Snippet Editor 2.1.0.0",
+    "DevelopmentStatus": "Stable",
+    "Description": "! Snippet Editor 2.1.0.0\n\n** Includes improved search capabilities.\n** Supports Visual Studio 2005, 2008 and *now also Visual Studio 2010*.\n\n\nNotes:\n* _requires .NET 3.5 or later_\n* _To edit snippets in the default location which is Program Files sub tree, you need to launch the editor with administrator privileges on Vista, 2008 or Windows 7.  You can still view the snippets and edit your own snippets without running as admin._\n\n_If you like the Snippet Editor you can buy me a beer at:_\n[url:https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2895732]",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2009-02-05T03:47:40.28-08:00",
+    "Files": [
+      {
+        "Id": "73fc8e1f-77cc-4833-a111-3c8b52a52f36",
+        "FileName": "SnippetEditor 2.1.zip",
+        "Url": "./1/73fc8e1f-77cc-4833-a111-3c8b52a52f36",
+        "Type": "Application",
+        "UploadDate": "2009-02-05T03:47:40.03-08:00"
+      }
+    ]
+  }
+]

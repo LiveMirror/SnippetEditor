@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "waiting for more detail on the exception",
+    "ClosedDate": "2012-02-16T15:13:43.377-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I installed the latest version of Snippet Editor yesterday and found that it still won't run on my machine (Win 7 & VS 2008 - vb).  I get the message \"Unhandled exception has occurred in your application...\" when starting.\n \nI looked for fixes to remedy the problem and found only one about the config file entries which did not work.  I can't believe that I am the only one who has the problem and that has existed for over two years and no one has a solution.  Even after I bought Bill McC a beer - no good deed goes unpunished.\n \nAppreciate any help. \nThanks,\nJoe",
+    "LastUpdatedDate": "2013-05-16T03:01:41.83-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "SnippetEditor",
+    "ReportedDate": "2011-11-03T04:12:08.413-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Snippet Editor Error",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 21738
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Please download the last source code, changeset 36425:\r\nhttp://snippeteditor.codeplex.com/SourceControl/changeset/changes/36425\r\n\r\nRun the application from visual studio and give us more details on the error. It's most likely a registry problem, but can't tell form the detail provided.",
+      "PostedDate": "2012-02-16T14:52:32.65-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-02-16T15:13:43.377-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T13:15:06-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T03:01:41.83-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

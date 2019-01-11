@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 12358,
+    "Title": "NPE when switching either the language or kind"
+  },
+  {
+    "Id": 12571,
+    "Title": "Doesn't find VS2008 snippets"
+  },
+  {
+    "Id": 12576,
+    "Title": "Unhandled Exception on Save"
+  },
+  {
+    "Id": 12580,
+    "Title": "Functionality to duplicate snippet"
+  },
+  {
+    "Id": 12581,
+    "Title": "Usability problem with creating snippet using toolbar \"New\" button"
+  },
+  {
+    "Id": 12591,
+    "Title": "Imports do not work for C#"
+  },
+  {
+    "Id": 13630,
+    "Title": "Too slow with many replacements"
+  },
+  {
+    "Id": 14293,
+    "Title": "System.Xml.XmlException: Root element is missing."
+  },
+  {
+    "Id": 15139,
+    "Title": "Snippets from users Documents folder don't show up"
+  },
+  {
+    "Id": 16250,
+    "Title": "Object reference not set to an instance of an object - when searching for any text in the text box"
+  },
+  {
+    "Id": 17937,
+    "Title": "Getting an error with selecting type"
+  },
+  {
+    "Id": 18464,
+    "Title": "VS2010 SQL Snippets Folder Is Not Included"
+  },
+  {
+    "Id": 18685,
+    "Title": "Ability to Export all snippets not just one"
+  },
+  {
+    "Id": 21738,
+    "Title": "Snippet Editor Error"
+  },
+  {
+    "Id": 24419,
+    "Title": "Error at launch for first time. Invoke or BeginInvoke cannot be called on a control until the window handle has been created"
+  }
+]

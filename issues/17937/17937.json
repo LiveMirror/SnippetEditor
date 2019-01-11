@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Please try last release or code build&#58;http&#58;&#47;&#47;snippeteditor.codeplex.com&#47;SourceControl&#47;changeset&#47;changes&#47;36425",
+    "ClosedDate": "2012-02-16T16:13:53.867-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "First, when I startup SnippetEditor, the combo box in the upper left where you select the type of code snippet (VB, C#, etc..) it has \"SnippetEditor.Utility.Product\" as all the text for the drop-down and when I attempt to make a selection, I get an unhandled exception error that I've attached.  I attempted to reinstall SnippetEditor, but it contiues even after that.",
+    "LastUpdatedDate": "2013-05-16T03:01:42.6-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "SnippetEditor",
+    "ReportedDate": "2010-06-09T10:53:56.38-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Getting an error with selecting type",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 17937
+  },
+  "FileAttachments": [
+    {
+      "FileId": 3668,
+      "FileName": "snippeteditorError.txt",
+      "DownloadUrl": ".\\3668"
+    }
+  ],
+  "Comments": []
+}

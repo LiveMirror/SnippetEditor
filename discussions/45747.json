@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "152679",
+    "ThreadId": "45747",
+    "Html": "I want to open a bug report, but until I know what the desired prereqs are for the snippet editor, I will refrain. <br>\r\n<br>\r\nProblem is that the ed crashes immediately after the splash loads. I only have vs2k5 installed on this PC, so I am wondering if it is failing due to that? <br>\r\nOr is it that it requires the .Net framework 3+ installed?<br>\r\n",
+    "PostedDate": "2009-01-30T12:41:52.273-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "152735",
+    "ThreadId": "45747",
+    "Html": "Hi Chad,<br>\r\n<br>\r\nthe snippet editor requires .NET 3.5 (XLINQ)\r\n",
+    "PostedDate": "2009-01-30T16:44:32.28-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

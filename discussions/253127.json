@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "594233",
+    "ThreadId": "253127",
+    "Html": "\r\n<p>I cannot save a snippet path in Snippet editor 2.1</p>\r\n<p>I have added a path:</p>\r\n<p>C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Web\\Snippets\\JScript\\1033\\ExtJS</p>\r\n<p>containing my extjs snippets (for use in .js files)</p>\r\n<p>This folder has previously been added to the Code snippets manager in VS2010</p>\r\n<p>I add this path into snippet editor using the add path right click context menu. It adds the folder but without the little blue star in the centre of the icon.</p>\r\n<p>I close snippet editor and re-open, the new folder is gone.</p>\r\n<p>What am I doing wrong please?</p>\r\n",
+    "PostedDate": "2011-04-08T08:33:23.573-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1137235",
+    "ThreadId": "253127",
+    "Html": "<strong>mccartrey wrote:</strong><br />\n<blockquote>\nI cannot save a snippet path in Snippet editor 2.1 I have added a path: C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Web\\Snippets\\JScript\\1033\\ExtJS containing my extjs snippets (for use in .js files) This folder has previously been added to the Code snippets manager in VS2010 I add this path into snippet editor using the add path right click context menu. It adds the folder but without the little blue star in the centre of the icon. I close snippet editor and re-open, the new folder is gone. What am I doing wrong please?<br />\n</blockquote>\nI'm having the same problem as Paul.<br />\n",
+    "PostedDate": "2013-12-17T11:12:51.393-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1208945",
+    "ThreadId": "253127",
+    "Html": "That's normal. There is still some kind of bug in this application. Sometime I have an error report when launching it, and often the custom path disappears (Not all the time, almost only when you modify the folder structure). There is also some unexpected result, that needs to be checked.\r<br />\n<br />\nThere is already a patch uploaded by khmer_lovers that seems to correct the problem and some others. But the patch itself have to be corrected before uses (missing references due to cleaning).\r<br />\n<br />\n<br />\nAnyway, I don't know if the author is still working on it, I have to check. But as I'm very interrested by the program itself, I would take a look at the most annoying bugs and try to correct it. As always, just need to find the time to do it :)\r<br />\n<br />\nSo, don't hesitate to report bugs and issues, that will help others.<br />\n",
+    "PostedDate": "2014-02-16T04:05:58.857-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

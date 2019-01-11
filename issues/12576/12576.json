@@ -1,0 +1,75 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-02-16T14:49:16.813-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When saving changes to a snippet receive an unhandled exception warning \"Access to path... is denied\"",
+    "LastUpdatedDate": "2013-05-16T03:01:43.757-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "SnippetEditor",
+    "ReportedDate": "2009-02-09T14:23:38.21-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Unhandled Exception on Save",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 3,
+    "Id": 12576
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "I received an unhandled exception on saving.  When I started the program with \"Run as Administrator\" it saved properly.",
+      "PostedDate": "2009-05-06T21:09:33.28-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "I also am getting this error. Is there a fix????/",
+      "PostedDate": "2010-07-19T13:13:54.043-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2010-07-19T13:14:07.343-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "The snippets that ship with Visual Studio are usually within the %Program Files% path, and as such you must run any program with elevated permissions to over-write those files.\r\n2 work arounds:\r\n1. Run asAdministrator\r\n2. Move the snippets to a path in your documents or similar where you don't need elevated permissions ot save.",
+      "PostedDate": "2012-02-16T14:49:03.167-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-02-16T14:49:16.813-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T13:15:08.54-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T03:01:43.757-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

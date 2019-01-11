@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "931504",
+    "ThreadId": "400571",
+    "Html": "\r\n<p>Hi, I like your software.</p>\r\n<p>Have plan support Visual Studio 2012?</p>\r\n",
+    "PostedDate": "2012-10-24T01:05:37.46-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1360329",
+    "ThreadId": "400571",
+    "Html": "Hi, \r<br />\n<br />\nYou can create snippet for vs2010 then copy it to vs2013 snippets folder,\r<br />\nIn my computer for c# snippets folder for vs2013: C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\VC#\\Snippets\\1033\\Visual C#\r<br />\n<br />\nI have tested and it works.<br />\n",
+    "PostedDate": "2015-03-05T23:48:52.767-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

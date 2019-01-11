@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-02-16T16:55:50.137-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Title says is all.",
+    "LastUpdatedDate": "2013-05-16T03:01:42.46-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "SnippetEditor",
+    "ReportedDate": "2010-08-11T12:22:03.497-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "VS2010 SQL Snippets Folder Is Not Included",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 18464
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Thanks. This looks like a problem with the way the registry is parsed. At first glance it seems using HKCU instead of HKLM will fix the problem, but need to regression test with other versions of Visual Studio.\r\nWhat I'll probably do is release a new version with VS 2012, that only supports 2010 and 2012.",
+      "PostedDate": "2012-02-16T16:06:54.173-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-02-16T16:55:50.137-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T13:15:06.853-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T03:01:42.46-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "Interesting suggestion. Problem is snippets are file based, and as such can have conflicting names if paths are nto preserved.I recommend making a folder in your user documents path and using that for your snippets you edit. This solves various problems with admin rights and also allows you to easily copy that folder to another machine etc.Perhaps adding a tip to the snippet editor abotu organising and managing snippets might be in order.",
+    "ClosedDate": "2012-02-16T16:10:58.667-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Hi,\nI think it will be extremely useful if we could export all snippets and not just one.\nThanks",
+    "LastUpdatedDate": "2013-05-16T03:01:42.32-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "SnippetEditor",
+    "ReportedDate": "2010-09-05T02:24:39.067-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Ability to Export all snippets not just one",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 18685
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Me too",
+      "PostedDate": "2010-11-26T07:31:51.253-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-02-16T16:10:58.667-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T13:15:06.63-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T03:01:42.32-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "This should have been fixed with changeset 36425http&#58;&#47;&#47;snippeteditor.codeplex.com&#47;SourceControl&#47;changeset&#47;changes&#47;36425And yes, I too store my favourite snippets in my documents path. You should be able to browse to that path fro mthe snippet editor to add.",
+    "ClosedDate": "2012-02-16T15:17:27.617-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I always store my snippets in my Documents folder (Documents/Visual Studio 2008 (or 2010)/Snippets) as it makes it easier to port my custom snippets between machines.\n \nIt'd be useful if I could also get those snippets loaded into the Snippet Editor.\n \nIt would also get around the problem of having to run the Snippet Editor as an administrator in Win Vista/ Win7 due to UAC locking down the Program Files folder.",
+    "LastUpdatedDate": "2013-05-16T03:01:42.927-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "SnippetEditor",
+    "ReportedDate": "2009-12-01T22:22:16.853-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Snippets from users Documents folder don't show up",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 15139
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

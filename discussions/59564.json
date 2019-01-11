@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "201667",
+    "ThreadId": "59564",
+    "Html": "<p>First of all I would like to say that this is a great tool and have saved me lots of time and efforts. Thanks Bill.</p>\r\n<p>Then I would like to comment, i am not sure if the problem&nbsp;is because related to this tool or is VS2008 itself, but when I use a &quot;Reference&quot; or &quot;Imports&quot; it does not do the references and imports in my code once the snippet is invoked. I am developing in C# by the way.</p>\r\n<p>Thanks again bill for this tool.</p>\r\n<p>Take care,</p>\r\n<p>LAM.</p>",
+    "PostedDate": "2009-06-15T10:28:12.797-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "201837",
+    "ThreadId": "59564",
+    "Html": "<p>Hi LAM,</p>\r\n<p>Unfortunately that is a current limitation of C#. At present it hasn't been fixed in VS 10 Beta 1, but I do think they are considering it for a future release.</p>",
+    "PostedDate": "2009-06-15T19:34:50.617-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

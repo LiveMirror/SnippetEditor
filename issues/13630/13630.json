@@ -1,0 +1,60 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-02-16T16:42:19.753-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "Actually I am using this tool to create classes and stored procedures for my n-tier applications. I have a snippet with 82 replacements and the program is so slow that a simple modification takes seconds and seconds to complete. I tested it on several computers but had the same behavior. Please fix this. Anyway thanks for the great tool ;)",
+    "LastUpdatedDate": "2013-05-16T03:01:43.227-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "SnippetEditor",
+    "ReportedDate": "2009-07-10T01:52:35.973-07:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Too slow with many replacements",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 13630
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "This is probably due to the way snippet replacement highlighting is implemented. From memory I think it scans the code once per replacement variable.\r\nIs your 82 replacements 82 different variables ? Usually snippets only have about a handful of replacement variables, although each variable may be used multiple times.\r\nCan you send/attach a sample snippet ?",
+      "PostedDate": "2012-02-16T16:42:12.123-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-02-16T16:42:19.753-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T13:15:07.813-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T03:01:43.227-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

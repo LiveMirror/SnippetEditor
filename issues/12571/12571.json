@@ -1,0 +1,76 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-02-16T16:55:25.553-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I've just unzipped and run the Snippet Editor (using 'Run as Administrator') and it's not finding the VS2008 snippets.  The only item in the dropdown is 'SnippetEditor.Utility.Product'.  Have I done something wrong, or have I not done something necessary?",
+    "LastUpdatedDate": "2013-05-16T03:01:43.897-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "SnippetEditor",
+    "ReportedDate": "2009-02-09T02:55:36.987-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Doesn't find VS2008 snippets",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 2,
+    "Id": 12571
+  },
+  "FileAttachments": [
+    {
+      "FileId": 2274,
+      "FileName": "SnippetEditor.exe",
+      "DownloadUrl": ".\\2274"
+    }
+  ],
+  "Comments": [
+    {
+      "Message": "I had the same problem with Windows XP.  I downloaded the source code and had to adjust the code in 3 places where Object Not Set to an Instance of an Object occured.  Now it works, but I have two folders labeled 131 in my list.  It was looking up registry entries that apparently don't exist in XP.  I attached the final executable in case you want to try it.  Just replace the exe in the folder and leave everything else.",
+      "PostedDate": "2009-09-28T11:15:59.93-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2009-09-28T11:16:03.553-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "Check to see if you have the ASP.Net Futures May 2007 installed.  I had the same problem and after uninstalling the ASP.Net Futures, everything worked fine.",
+      "PostedDate": "2009-09-28T12:34:35.613-07:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2012-02-16T16:55:25.553-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T13:15:08.723-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T03:01:43.897-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

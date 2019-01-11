@@ -1,0 +1,55 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": "2012-02-16T16:46:20.527-08:00",
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "I wonder if it is worth disabling the imports section if the language is c# as automatic insertion of usings does not work in c#.",
+    "LastUpdatedDate": "2013-05-16T03:01:43.363-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Low",
+      "Severity": 50,
+      "Id": 1
+    },
+    "ProjectName": "SnippetEditor",
+    "ReportedDate": "2009-02-11T07:51:09.897-08:00",
+    "Status": {
+      "Name": "Closed",
+      "Id": 4
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Imports do not work for C#",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 12591
+  },
+  "FileAttachments": [],
+  "Comments": [
+    {
+      "Message": "Thanks, I'll consider this for a future release",
+      "PostedDate": "2012-02-16T16:46:26.873-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-02-14T13:15:07.99-08:00",
+      "Id": -2147483648
+    },
+    {
+      "Message": "",
+      "PostedDate": "2013-05-16T03:01:43.363-07:00",
+      "Id": -2147483648
+    }
+  ]
+}

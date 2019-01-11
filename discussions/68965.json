@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "234669",
+    "ThreadId": "68965",
+    "Html": "<p>I was wondering if it is possible to call internal functions from within the code snippet?</p>\r\n<p>I want to try and convert this code snippet.</p>\r\n<hr>\r\n<div style=\"color:Black;background-color:White\">\r\n<pre><span style=\"color:Blue\">Private</span> $PrivateVariable$ <span style=\"color:Blue\">As</span> $PropertyType$\r\n<span style=\"color:Blue\">Public</span> <span style=\"color:Blue\">Property</span> $PropertyName$() <span style=\"color:Blue\">As</span> $PropertyType$\r\n    <span style=\"color:Blue\">Get</span>\r\n        <span style=\"color:Blue\">Return</span> $PrivateVariable$ \r\n    <span style=\"color:Blue\">End</span> <span style=\"color:Blue\">Get</span>\r\n    <span style=\"color:Blue\">Set</span>(<span style=\"color:Blue\">ByVal</span> value <span style=\"color:Blue\">As</span> $PropertyType$)\r\n        $PrivateVariable$ = value\r\n    <span style=\"color:Blue\">End</span> <span style=\"color:Blue\">Set</span>\r\n<span style=\"color:Blue\">End</span> <span style=\"color:Blue\">Property</span></pre>\r\n<pre><hr>\r\nto....</pre>\r\n</div>\r\n<hr>\r\n<p><span style=\"color:Blue\">Private</span> _$PrivateVariable$.ToCamelCase <span style=\"color:Blue\">As</span> $PropertyType$ <span style=\"color:Green\">'includes '_' with lower case initial char</span><br><span style=\"color:Blue\">Public</span> <span style=\"color:Blue\">Property</span> $PropertyName$.ToPascalCase() <span style=\"color:Blue\">As</span> $PropertyType$ <span style=\"color:Green\">'Upper case initial char</span><br>&nbsp;&nbsp;&nbsp; <span style=\"color:Blue\">Get</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style=\"color:Blue\">Return</span> $PrivateVariable$ <br>&nbsp;&nbsp;&nbsp; <span style=\"color:Blue\">End</span> <span style=\"color:Blue\">Get</span><br>&nbsp;&nbsp;&nbsp; <span style=\"color:Blue\">Set</span>(<span style=\"color:Blue\">ByVal</span> value <span style=\"color:Blue\">As</span> $PropertyType$)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $PrivateVariable$ = value<br>&nbsp;&nbsp;&nbsp; <span style=\"color:Blue\">End</span> <span style=\"color:Blue\">Set</span><br><span style=\"color:Blue\">End</span> <span style=\"color:Blue\">Property</span></p>\r\n<pre><span style=\"color:Blue\"><hr></span></pre>\r\n<p>Can you confirm if is it possible?&nbsp; I thought about using the function feature but can not find much documentation.</p>\r\n<p>Many thanks,</p>\r\n<p>Dave Wiltshire</p>",
+    "PostedDate": "2009-09-15T04:04:55.927-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "235900",
+    "ThreadId": "68965",
+    "Html": "Hi Dave,<br><br>Unfortunately you cannot call custom functions from Snippets. Although the<br>snippet format includes functions, VB doesn't support any functions at all,<br>and C# only supports a few such as SimpleTypeName, ClassName and<br>GenerateSwitchCases.<br>I believe the reason they omitted this functionality was because it opens up<br>an entire can of security worms for the sharing of snippets.  Still, I think<br>it would be nice if it was there or common functions such as date time,<br>machine/user info, and casing requests such as yours for a camel cased<br>backing field with a pascal cased property where catered for with a wider<br>set of supported built in functions. Sadly that isn't the case today, nor<br>for VS 2010 that I know of :(",
+    "PostedDate": "2009-09-17T23:35:30.01-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1040772",
+    "ThreadId": "68965",
+    "Html": "I cannot get the ClassName() function to work. It never generates a name. Any ideas why this might be happening. Thanks.<br />\n",
+    "PostedDate": "2013-05-08T02:39:16.697-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

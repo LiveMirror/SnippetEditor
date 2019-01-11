@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "At launch got this error... \n\n************** Exception Text **************\nSystem.InvalidOperationException: Invoke or BeginInvoke cannot be called on a control until the window handle has been created.\n   at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)\n   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)\n   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)\n   at Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.HideSplashScreen()\n   at System.EventHandler.Invoke(Object sender, EventArgs e)\n   at System.Windows.Forms.Form.OnLoad(EventArgs e)\n   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)\n   at System.Windows.Forms.Control.CreateControl()\n   at System.Windows.Forms.Control.WmShowWindow(Message& m)\n   at System.Windows.Forms.Control.WndProc(Message& m)\n   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)\n   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)\n\n\n************** Loaded Assemblies **************\nmscorlib\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.5466 (Win7SP1GDR.050727-5400)\n    CodeBase: file:///C:/Windows/Microsoft.NET/Framework64/v2.0.50727/mscorlib.dll\n----------------------------------------\nSnippetEditor\n    Assembly Version: 2.1.0.0\n    Win32 Version: 2.1.0.0\n    CodeBase: file:///C:/Users/jbasurto/Downloads/SnippetEditor%202.1/SnippetEditor.exe\n----------------------------------------\nMicrosoft.VisualBasic\n    Assembly Version: 8.0.0.0\n    Win32 Version: 8.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/Microsoft.VisualBasic/8.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualBasic.dll\n----------------------------------------\nSystem\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.5467 (Win7SP1GDR.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll\n----------------------------------------\nSystem.Windows.Forms\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.5468 (Win7SP1GDR.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Windows.Forms/2.0.0.0__b77a5c561934e089/System.Windows.Forms.dll\n----------------------------------------\nSystem.Drawing\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.5467 (Win7SP1GDR.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Drawing/2.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll\n----------------------------------------\nSystem.Runtime.Remoting\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Runtime.Remoting/2.0.0.0__b77a5c561934e089/System.Runtime.Remoting.dll\n----------------------------------------\nAccessibility\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.4927 (NetFXspW7.050727-4900)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/Accessibility/2.0.0.0__b03f5f7f11d50a3a/Accessibility.dll\n----------------------------------------\nSystem.Configuration\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll\n----------------------------------------\nSystem.Xml.Linq\n    Assembly Version: 3.5.0.0\n    Win32 Version: 3.5.30729.5420 built by: Win7SP1\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Xml.Linq/3.5.0.0__b77a5c561934e089/System.Xml.Linq.dll\n----------------------------------------\nSystem.Core\n    Assembly Version: 3.5.0.0\n    Win32 Version: 3.5.30729.5420 built by: Win7SP1\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Core/3.5.0.0__b77a5c561934e089/System.Core.dll\n----------------------------------------\nSystem.Xml\n    Assembly Version: 2.0.0.0\n    Win32 Version: 2.0.50727.5420 (Win7SP1.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll\n----------------------------------------\nc3rbzfh8\n    Assembly Version: 2.1.0.0\n    Win32 Version: 2.0.50727.5467 (Win7SP1GDR.050727-5400)\n    CodeBase: file:///C:/Windows/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll\n----------------------------------------\n\n************** JIT Debugging **************\nTo enable just-in-time (JIT) debugging, the .config file for this\napplication or computer (machine.config) must have the\njitDebugging value set in the system.windows.forms section.\nThe application must also be compiled with debugging\nenabled.\n\nFor example:\n\n<configuration>\n    <system.windows.forms jitDebugging=\"true\" />\n</configuration>\n\nWhen JIT debugging is enabled, any unhandled exception\nwill be sent to the JIT debugger registered on the computer\nrather than be handled by this dialog box.",
+    "LastUpdatedDate": "2014-01-11T11:10:52.97-08:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "SnippetEditor",
+    "ReportedDate": "2013-06-19T10:34:51.957-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Error at launch for first time. Invoke or BeginInvoke cannot be called on a control until the window handle has been created",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 2,
+    "Id": 24419
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

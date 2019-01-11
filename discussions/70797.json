@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "241208",
+    "ThreadId": "70797",
+    "Html": "<p><span style=\"font-size:11pt\" lang=EN-GB>Very good and useful utility.</span></p>\r\n<p><span style=\"font-size:11pt\" lang=EN-GB>&nbsp;</span><span style=\"font-size:11pt\" lang=EN-GB>Two small questions for use in left hand panel :</span></p>\r\n<p><span style=\"font-size:11pt\" lang=EN-GB>- it is possible to move snippets with drag and drop. It is so easy (as in Solution Explorer in VS IDE) to move by mistake if you keep your finger too long on the mouse. So my question : is it possible to ask the user confirm before to validate the drop ?</span></p>\r\n<p><span style=\"font-size:11pt\" lang=EN-GB>&nbsp;</span><span style=\"font-size:11pt\" lang=EN-GB>- I think it would be good if we can also copy a snippet between folders. Perharps it is possible but I didn't see it. VB come with many snippets, it would be useful to copy a standard snippet to a specific folder then to change it without lost the standard snippet (it is the case with drag and drop).</span></p>\r\n<p><span style=\"font-size:11pt\" lang=EN-GB>&nbsp;</span><span style=\"font-size:11pt\" lang=EN-GB>Thanks</span></p>\r\n<p><span style=\"font-size:11pt\" lang=EN-GB>&nbsp;</span><span style=\"font-size:11pt\" lang=EN-GB>Dominique</span></p>",
+    "PostedDate": "2009-10-02T02:03:33.097-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "452092",
+    "ThreadId": "70797",
+    "Html": "<p>-</p>",
+    "PostedDate": "2010-06-05T20:24:39.29-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

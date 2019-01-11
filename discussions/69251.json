@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "235606",
+    "ThreadId": "69251",
+    "Html": "<p>What are the DLLs used for? There are 4 two-lettered folders in the ZIP file.</p>",
+    "PostedDate": "2009-09-17T07:42:01.26-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "235897",
+    "ThreadId": "69251",
+    "Html": "They are for localized versions.",
+    "PostedDate": "2009-09-17T23:27:39.83-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "524235",
+    "ThreadId": "69251",
+    "Html": "\r\n<p>How can I add new localization?</p>\r\n<p>I downloaded the source code and found that each of the localizations is defined in Resources.**.resx files inside &quot;My Project&quot; folder,</p>\r\n<p>but can't find a way to open those resources files from the solution.</p>\r\n<p>Opening My Project - Resources only shows the English strings.</p>\r\n<p>&nbsp;</p>\r\n<p>Can you guide me on how to add new resources and build those dlls.</p>\r\n<p>And also probably on how to submit new localizations to this project.</p>\r\n<p>&nbsp;</p>\r\n<p>Regards,</p>\r\n<p>Lestarioc</p>\r\n<p>&nbsp;</p>\r\n",
+    "PostedDate": "2010-11-19T01:24:33.947-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "238969",
+    "ThreadId": "70158",
+    "Html": "<p>I love the product.&nbsp; When I run the application, the dropdown box for the version of VS says SnippetEditor.Utility.Product.&nbsp; There are two listings of the same thing.&nbsp; When I select the second one, I get an unhandled exception.</p>\r\n<p>System.NullReferenceException: Object reference not set to an instance of an object.<br>&nbsp;&nbsp; at SnippetEditor.Utility.Language.GetLocalisedName()<br>&nbsp;&nbsp; at SnippetEditor.Utility.Language.get_LocalisedName()<br>&nbsp;&nbsp; at SnippetEditor.SnippetExplorer.LanguageNode..ctor(Language lang)<br>&nbsp;&nbsp; at SnippetEditor.SnippetExplorer.FillLanguage(Language lang)<br>&nbsp;&nbsp; at SnippetEditor.SnippetExplorer.FillTreeView()<br>&nbsp;&nbsp; at SnippetEditor.SnippetExplorer.ComboBox1_SelectedIndexChanged(Object sender, EventArgs e)<br>&nbsp;&nbsp; at System.Windows.Forms.ComboBox.OnSelectedIndexChanged(EventArgs e)<br>&nbsp;&nbsp; at System.Windows.Forms.ComboBox.WmReflectCommand(Message&amp; m)<br>&nbsp;&nbsp; at System.Windows.Forms.ComboBox.WndProc(Message&amp; m)<br>&nbsp;&nbsp; at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message&amp; m)<br>&nbsp;&nbsp; at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message&amp; m)<br>&nbsp;&nbsp; at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)</p>\r\n<p>Do I need to make some registry edits?</p>\r\n<p>Thanks</p>",
+    "PostedDate": "2009-09-25T13:50:26.727-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "239639",
+    "ThreadId": "70158",
+    "Html": "<p>I did some more digging and I found that the problem is related to the Managed JScript and Python languages.&nbsp; The registry entries don't seem to exists for these two languages so the code is erroring when it tries to look them up.&nbsp; I adjusted the source code to avoid the errors and now I get two folders labeled 131 in Snippet Editor, but everything is working otherwise.</p>",
+    "PostedDate": "2009-09-28T11:25:00.083-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "239675",
+    "ThreadId": "70158",
+    "Html": "<p>More digging revealed it's because I have the ASP.Net Futures May 2007 installed.&nbsp; Uninstall it and all is well.</p>",
+    "PostedDate": "2009-09-28T12:31:23.977-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

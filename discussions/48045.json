@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "160297",
+    "ThreadId": "48045",
+    "Html": "Just wanted to say 1.. This is a great tool... I'm very impressed by it..<br>\r\n<br>\r\nI'm curious if you can also use this to create snippets for Custom Developer UIs using the 2008 Shell SDK.. Or if I'd have to build in the snippet file source location.<br>\r\n<br>\r\nThanks<br>\r\n<br>\r\n~Doc<br>\r\n<br>\r\n",
+    "PostedDate": "2009-02-20T13:44:41.423-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "201839",
+    "ThreadId": "48045",
+    "Html": "<p>Hi Doc,</p>\r\n<p>Sorry I missed this post earlier, but it probalby wouldn't have changed anything as I don't know the answer to that question. There's a bit of &quot;fudging&quot; to work with VS and the snippet paths, mainly because the user registry path is not initialized until the user opens up the VS snippet management tool, so the snippet editor does a bit of a dance/jig to create those registry keys if they aren't already there.&nbsp; I don't know what paths custom shells use. You'd have to install on a clean VCP image and inspect the registry. I'd expect it would be similar, and so you should be able&nbsp;to modify the bit in the Setitngs as I did to add VS10.</p>",
+    "PostedDate": "2009-06-15T19:43:07.027-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]
